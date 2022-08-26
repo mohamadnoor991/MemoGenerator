@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/MemoGenerator/static/css/main.f10ac1e7.css",
+    "main.js": "/MemoGenerator/static/js/main.026e064a.js",
+    "static/media/troll-face.png": "/MemoGenerator/static/media/troll-face.333e3d3ea3fac930f6d5.png",
+    "index.html": "/MemoGenerator/index.html",
+    "main.f10ac1e7.css.map": "/MemoGenerator/static/css/main.f10ac1e7.css.map",
+    "main.026e064a.js.map": "/MemoGenerator/static/js/main.026e064a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f10ac1e7.css",
+    "static/js/main.026e064a.js"
+  ]
+}
