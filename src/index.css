@@ -1,13 +1,136 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+  display:flex;
+}
+.app{
+  position:absolute;
+
+  left: 0px;
+    
+}
+header{
+  display: flex;
+  align-items: center; 
+  /* padding: 15px 20px; */
+/* position:relative; */
+align-items: center;
+width:550px;
+height: 65px;
+
+background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+
+
+}
+header h1{
+  
+  position: absolute;
+width: 140.79px;
+height: 24px;
+left: 98px;
+top: 21px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 20.7482px;
+line-height: 24px;
+letter-spacing: -0.1em;
+
+color: #FFFFFF;
+}
+header img{
+  position:absolute;
+  width:55px ;
+left: 4.99%;
+right: 94.47%;
+top: 16.02%;
+bottom: 93.7%;
+
+/* background: #FCFCFC; */
+}
+header p{
+position: absolute;
+width: 189px;
+height: 14px;
+left: 324px;
+top: 25px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+text-align: right;
+
+color: #FFFFFF;
+}
+.main-class{
+  padding: 10px;
+}
+.m-input1{
+  box-sizing: border-box;
+
+position: absolute;
+width: 230px;
+height: 35px;
+left: 36px;
+top: 101px;
+text-indent: 5px;
+border: 1px solid #D5D4D8;
+border-radius: 5px;
+}
+.m-input2{
+  box-sizing: border-box;
+
+position: absolute;
+width: 230px;
+height: 35px;
+left: 283px;
+top: 101px;
+text-indent: 5px;
+border: 1px solid #D5D4D8;
+border-radius: 5px;
+}
+.m-button{
+  position: absolute;
+width: 477px;
+height: 40px;
+left: 36px;
+top: 151px;
+
+background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+border-radius: 5px;
+color: #FFFFFF;
+/* text-align: left; */
+cursor: pointer;
+}
+.m-image{
+position: absolute;
+width: 477px;
+height: 588px;
+left: 36px;
+top: 227px;
+
+/* background: url(./images/s.jpg); */
+border: 4px solid #000000;
+border-radius: 8px;
+
+
+}
+.top-text{
+  position: absolute;
+  left:200px;
+  top:250px;
+  color: darkgreen
+}
+.bottom-text{
+  position: absolute;
+  left:200px;
+  top:680px;
+  color: darkgreen
 }
